@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-family: fantasy, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-family: fantasy, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    text-align: center;
+    justify-content: center;
+  }
+
+.grid-item {
+    border: 2px solid black;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+button {
+    font-size: large;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
